@@ -1,0 +1,18 @@
+{
+  "managedApiConnections": {
+    "servicebus-2": {
+      "api": {
+        "id": "/subscriptions/fbcfc68c-3c2e-4ff7-bea4-da2642809f50/providers/Microsoft.Web/locations/francecentral/managedApis/servicebus"
+      },
+      "connection": {
+        "id": "/subscriptions/fbcfc68c-3c2e-4ff7-bea4-da2642809f50/resourceGroups/rg-ipaas-quickstart-demo-fc/providers/Microsoft.Web/connections/servicebus-3"
+      },
+      "connectionRuntimeUrl": "https://0906caf345b9f18c.14.common.logic-francecentral.azure-apihub.net/apim/servicebus/ef374f7a3da84038b643f28f690aaaa9/",
+      "authentication": {
+        "type": "Raw",
+        "scheme": "Key",
+        "parameter": "@appsetting('servicebus-2-connectionKey')"
+      }
+    }
+  }
+}

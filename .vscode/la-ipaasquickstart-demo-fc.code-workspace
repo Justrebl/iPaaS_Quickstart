@@ -1,0 +1,23 @@
+{
+    "folders": [
+        {
+            "path": "..",
+            "name": "root"
+        },
+        {
+            "path": "../app/logic-app",
+            "name": "logic-app"
+        }
+    ],
+    "settings": {
+        "azureLogicAppsStandard.autoRuntimeDependenciesValidationAndInstallation": true,
+        "azurite.location": "/home/vscode/.azurelogicapps/.azurite",
+        "terminal.integrated.env.linux": {
+          "PATH": "/home/vscode/.azurelogicapps/dependencies/DotNetSDK:${env:PATH}"
+        },
+        "omnisharp.dotNetCliPaths": [
+          "/home/vscode/.azurelogicapps/dependencies/DotNetSDK"
+        ],
+        "debug.internalConsoleOptions": "neverOpen"
+      }
+}

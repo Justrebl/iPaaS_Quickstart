@@ -1,0 +1,17 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "WORKFLOWS_TENANT_ID": "fe85910f-e6e0-43da-a1ec-9e4e94a9f6c4",
+    "WORKFLOWS_SUBSCRIPTION_ID": "fbcfc68c-3c2e-4ff7-bea4-da2642809f50",
+    "WORKFLOWS_RESOURCE_GROUP_NAME": "rg-ipaas-quickstart-demo-fc",
+    "WORKFLOWS_LOCATION_NAME": "francecentral",
+    "WORKFLOWS_MANAGEMENT_BASE_URI": "https://management.azure.com/",
+    "Workflows.iPaaS_Quickstart.OperationOptions": "WithStatelessRunHistory",
+    "AzureWebJobsSecretStorageType": "Files",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "APP_KIND": "workflowapp",
+    "ProjectDirectoryPath": "/workspaces/iPaaS_Quickstart/app/logic-app/workflow-designtime/",
+    "servicebus-2-connectionKey": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjExOTAwOTI2QzE3QzM2NEU1NEQ4NkU5REI3MUQ4OUQwNDQ5NjdERUUiLCJ4NXQiOiJFWkFKSnNGOE5rNVUyRzZkdHgySjBFU1dmZTQiLCJ0eXAiOiJKV1QifQ.eyJ0cyI6ImZlODU5MTBmLWU2ZTAtNDNkYS1hMWVjLTllNGU5NGE5ZjZjNCIsImNzIjoibG9naWMtYXBpcy1mcmFuY2VjZW50cmFsL3NlcnZpY2VidXMvZWYzNzRmN2EzZGE4NDAzOGI2NDNmMjhmNjkwYWFhYTkiLCJ2IjoiLTkyMjMzNzIwMzY4NTQ3NzU4MDgiLCJlbnZpZCI6IjA5MDZjYWYzNDViOWYxOGMiLCJhdWQiOiJodHRwczovLzA5MDZjYWYzNDViOWYxOGMuMTQuY29tbW9uLmxvZ2ljLWZyYW5jZWNlbnRyYWwuYXp1cmUtYXBpaHViLm5ldC9hcGltL3NlcnZpY2VidXMvZWYzNzRmN2EzZGE4NDAzOGI2NDNmMjhmNjkwYWFhYTkiLCJtYW5hZ2VtZW50IjoiaHR0cHM6Ly9tYW5hZ2VtZW50LmxvZ2ljLWZyYW5jZWNlbnRyYWwuYXp1cmUtYXBpaHViLm5ldC8iLCJuYmYiOjE3MDE3MDEyMDcsImV4cCI6MTcwMjMwNjAwNywiaWF0IjoxNzAxNzAxMjA3LCJpc3MiOiJodHRwczovL2xvZ2ljLWFwaXMtZnJhbmNlY2VudHJhbC5henVyZS1hcGltLm5ldC8ifQ.MKYfP5tiGc6SyHsJ3n36W_WdHkGj0CfmgwXwmDgwaM7dizELxuTE4tzo5ySIkCYKOnjPmhnSrOy_t94civgGi7o-CaBj2jIm16CSVAPwxB2k6hGZK_VnyramrbflCR4lBP-iHMC0NXKE7Qi8eBFTbhDenRRY0cwpO2hwDUBRIR-srB53LoPItGexzXtp6Eq9f-7JNy_LmQIw4wSBxYJ1lRbVKsl7Cy9yXAH9IgZpxx7NKFXEbx3aFkqSoR-bDvjJjRvHuKuEAMdcaCi6cNmshIuPnbohYbVPnT04sYx28ava5PeGlk7UYmrjyq9XXlWsJfXtFkj-OlSVIki6_tUjdQ"
+  }
+}
