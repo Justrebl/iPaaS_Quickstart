@@ -5,22 +5,23 @@
         "contentVersion": "1.0.0.0",
         "outputs": {},
         "triggers": {
-            "When_a_message_is_received_in_a_queue_(auto-complete)": {
+            "When_a_message_is_received_in_a_queue_(peek-lock)": {
                 "type": "ApiConnection",
                 "inputs": {
                     "host": {
                         "connection": {
-                            "referenceName": "servicebus"
+                            "referenceName": "servicebus-2"
                         }
                     },
                     "method": "get",
-                    "path": "/@{encodeURIComponent(encodeURIComponent('queue-guid'))}/messages/head",
+                    "path": "/@{encodeURIComponent(encodeURIComponent('queue-guid'))}/messages/head/peek",
                     "queries": {
-                        "queueType": "Main"
+                        "queueType": "Main",
+                        "sessionId": "None"
                     }
                 },
                 "recurrence": {
-                    "interval": 2,
+                    "interval": 1,
                     "frequency": "Minute"
                 }
             }
