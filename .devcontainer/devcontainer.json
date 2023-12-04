@@ -17,6 +17,8 @@
     "vscode": {
       "extensions": [
         "vscjava.vscode-java-pack",
+        "ms-dotnettools.csdevkit",
+        "ms-vscode.vscode-node-azure-pack",
         "ms-azuretools.vscode-azurelogicapps",
         "github.copilot",
         "github.copilot-chat",
